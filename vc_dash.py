@@ -105,6 +105,7 @@ encoded = list(df_ohe.columns)
 df_ohe_full = df_ohe.copy()
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 logo_color = '#eb0029'
 
