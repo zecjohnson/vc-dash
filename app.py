@@ -47,6 +47,7 @@ from graph_prep import *
 # initialize Dash App
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 logo_color = '#eb0029'
 
