@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import joblib
 from google.cloud import bigquery
-import db_dtypes
+#import db_dtypes
 import time
 
 #import algorithm libraries
